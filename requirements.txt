@@ -1,4 +1,4 @@
-slugify
+python-slugify
 zmq
 cement
 PyYAML
