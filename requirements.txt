@@ -1,0 +1,4 @@
+slugify
+zmq
+cement
+PyYAML
