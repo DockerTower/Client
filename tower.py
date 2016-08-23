@@ -1,7 +1,7 @@
 from cement.core.foundation import CementApp
-from controller.tower_controller import TowerController
-from controller.app_controller import AppController
-from controller.agent_controller import AgentController
+from src.controller.agent_controller import AgentController
+from src.controller.app_controller import AppController
+from tower_controller import TowerController
 
 
 class Tower(CementApp):
