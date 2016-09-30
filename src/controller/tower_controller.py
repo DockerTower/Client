@@ -28,7 +28,7 @@ class TowerController(CementBaseController):
         self.context = zmq.Context()
         self.socket = self.context.socket(zmq.DEALER)
         self.socket.identity = str(uuid.uuid1()).encode('ascii')
-        self.socket.connect('tcp://localhost:5570')
+        self.socket.connect('tcp://185.8.164.31:5570')
 
 
     @expose(hide=True)

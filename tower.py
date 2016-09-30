@@ -1,7 +1,8 @@
 from cement.core.foundation import CementApp
 from src.controller.agent_controller import AgentController
 from src.controller.app_controller import AppController
-from tower_controller import TowerController
+from src.controller.tower_controller import TowerController
+from src.controller.server_controller import ServerController
 
 
 class Tower(CementApp):
@@ -10,6 +11,7 @@ class Tower(CementApp):
         handlers = [
             TowerController,
             AgentController,
+            ServerController,
             AppController
         ]
 

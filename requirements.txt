@@ -2,3 +2,4 @@ python-slugify
 zmq
 cement
 PyYAML
+docker-py
