@@ -1,5 +1,7 @@
+termcolor
 python-slugify
 zmq
 cement
 PyYAML
 docker-py
+dockerpty
